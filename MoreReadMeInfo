@@ -1,7 +1,0 @@
-More information:
-Please give me, the original creator credit, other than that this is a free program for use. 
-This project was finished under Dr.Dirk Colbry, at the CMSE department at Michigan State University. 
-It was a final project for a independent study.
-You need to replace blanks within the code with a ABS file and a PPM image file before usage. 
-To run this program, you need to replace the blank string with your ABS file name in readABS('').
-you also need to replace the blank string with your image file name in img.imread('').

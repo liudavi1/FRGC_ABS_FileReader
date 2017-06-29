@@ -8,10 +8,16 @@ To run this program, you need to replace the blank string with your ABS file nam
 You also need to replace the blank string with your image file name in img.imread().
 On the code there is a portion that needs to change based on the abs file involved,
 face = FRGC.readABS()
-im = misc.imresize(img.imread(),200)/256
+im = misc.imresize(img.imread(),100)/256
 FRGC.showFace(face, im)
-the 200 from the 200/256 needs to change based on abe file. 
+the 100 from the 100/256 needs to change based on abs file. 
 Otherwise the image will not work correctly. It directly affects the image color. 
+
+0002_example.ppm (size is 320x240)
+0002_example.abs (size is 320x240)
+ratio is  240 / 240 = 10. ( or 100%),  code: im = misc.imresize(img.imread(''), 1.0)/256 or  im = misc.imresize(img.imread(''), 100)/256
+
+
 Links:
 https://github.com/paulojamorim/fgrc-tools
 https://github.com/basilfx/Course-Face3D

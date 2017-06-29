@@ -12,3 +12,8 @@ im = misc.imresize(img.imread(),200)/256
 FRGC.showFace(face, im)
 the 200 from the 200/256 needs to change based on abe file. 
 Otherwise the image will not work correctly. It directly affects the image color. 
+Links:
+https://github.com/paulojamorim/fgrc-tools
+https://github.com/basilfx/Course-Face3D
+https://stackoverflow.com/questions/18789232/rotate-a-3d-object-in-python
+
